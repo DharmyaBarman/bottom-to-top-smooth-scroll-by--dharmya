@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: justify;
+    background-color: black;
+}
+
+.container h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.container-txt{
+    padding-top: 5rem;
+}
+.container-txt p{
+    padding-top: 2rem;
+}
+.container-txt h2{
+    font-size: 3rem;
+}
+
+/* here is your arrow style */
+
+.fa-arrow-up{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    font-size: 2rem;
+    color: #000000;
+    background-color: #fff;
+    padding:1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.fa-arrow-up:hover{
+    background-color: gainsboro;
+}
